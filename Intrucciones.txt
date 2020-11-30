@@ -1,0 +1,4 @@
+Para ejecutar el codigo abrir una consola en la carpeta y ejecutar la siguiente instruccion:
+python main.py
+
+Despues seguir las intrucciones.

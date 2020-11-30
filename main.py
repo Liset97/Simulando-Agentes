@@ -71,13 +71,20 @@ def main(n,m,obs,sucias,bebes,time):
     '''
 
 
+N=int(input('Introduce n: '))
+M=int(input('Introduce m: '))
+CasSucias=int(input('Introduce la cantidad de casillas sucias: '))
+CasObstaculos=int(input('Introduce la cantidad de casillas obstaculos: '))
+CantBebes=int(input('Introduce la cantidad de Bebes: '))
+time=int(input('Introduce t: '))
+
 simulaciones=30
 cantsucias=0
 despidos=0
 perfecto=0
 ninoscorral=0
 while simulaciones>0:
-    sucias,d,p,n=main(5,5,3,13,1,3)
+    sucias,d,p,n=main(N,M,CasObstaculos,CasillasObstaculos,CantBebes,time)
     cantsucias+=sucias
     if d==True:
         despidos+=1
